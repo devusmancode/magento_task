@@ -1,4 +1,11 @@
 <div class="custom-div">
+        <?php if ($this->getConfigValue('custom_section/custom_group/enable_custom_div')) : ?>
     <!-- Your custom content goes here -->
     <p>This is a custom div added after the Add to Cart section.</p>
+        <?php endif; ?>
 </div>
+<style type="text/css">
+    .custom-div{
+
+    }
+</style>
